@@ -1,22 +1,26 @@
 [
-  {
-      "name": "Animals"
-      
-  },
-  {
-      "name": "Technology"
-      
-  },
-  {
-      "name": "Anime & Manga"
-      
-  },
-  {
-      "name": "School"
-      
-  },
-  {
-      "name": "Random"
-     
-  }
+    {
+        "name": "Testing",
+        "PostId": 1
+    },
+    {
+        "name": "Technology",
+        "PostId": 2
+    },
+    {
+        "name": "Anime & Manga",
+        "PostId": 3
+    },
+    {
+        "name": "School",
+        "PostId": 4
+    },
+    {
+        "name": "Random",
+        "PostId": 5
+    },
+    {
+        "name": "Slice of Life",
+        "PostId": 1
+    }
 ]

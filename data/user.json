@@ -1,17 +1,22 @@
 [
     {
-        "userName": "anak A",
-        "password": "person A ",
-        "email": "A@gmail.com"
+        "userName": "khalish",
+        "password": "pass",
+        "email": "trastanechora@gmail.com"
     },
     {
-        "userName": "Anak B",
-        "password": "person B ",
-        "email": "b@gmail.com"
+        "userName": "mae",
+        "password": "pass",
+        "email": "trastanechora@gmail.com"
     },
     {
-        "userName": "Anak C",
-        "password": "person A ",
-        "email": "C@gmail.com"
+        "userName": "aaa",
+        "password": "pass",
+        "email": "trastanechora@gmail.com"
+    },
+    {
+        "userName": "bbb",
+        "password": "pass",
+        "email": "trastanechora@gmail.com"
     }
 ]
