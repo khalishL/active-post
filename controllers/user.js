@@ -7,13 +7,13 @@ class UserController {
   }
   static registerPost(req, res) {
     let body = req.body;
-    User.create(body)
+    User.create({ ...body, role: "user" })
       .then((addUser) => {
         res.redirect(`/login`);
       })
       .catch((err) => {
-        console.log(err);
-        res.send(err);
+        console.log("err nih", err);
+        res.render("register", { error: err.errors });
       });
   }
   static loginGet(req, res) {
@@ -29,6 +29,7 @@ class UserController {
         if (passwordIsTrue(password, user.password)) {
           req.session.authenticated = true;
           req.session.UserId = user.id;
+          req.session.role = user.role;
           res.redirect(`/posts`);
         } else {
           res.render("loginPage", { error: ["Password tidak sesuai"] });
